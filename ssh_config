@@ -1,0 +1,6 @@
+Host *
+    ServerAliveInterval 60
+    ControlMaster no
+    StrictHostKeyChecking no
+    UserKnownHostsFile=/dev/null
+    User ubuntu
