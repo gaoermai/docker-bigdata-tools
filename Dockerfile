@@ -1,4 +1,4 @@
-FROM alpine:3.12.0
+FROM bde2020/spark-base:2.4.4-hadoop2.7
 
 ENV PATH /root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
