@@ -14,6 +14,7 @@ RUN apk update && \
       python3 \
       py3-pip \
       jq \
+      zip \
       bash && \
     ln -sf /usr/share/zoneinfo/Etc/UTC /etc/localtime && \
     apk add --no-cache --update \
